@@ -12,11 +12,11 @@ object MainObject {
     breakable {
       while (true) {
         println("\nPress")
-        println("1. To insert Double of an element")
-        println("2. To insert square of an element")
-        println("3. To delete an element")
-        println("4. Display the OOPS.assign.Queue")
-        println("5. Exit")
+        println("1 -> Insert number to Double of an element")
+        println("2 -> Insert number to square of an element")
+        println("3 -> To delete an element")
+        println("4 -> Display the elements")
+        println("5 -> To exit")
         val sc = new Scanner(System.in)
         val choice = sc.nextInt()
         choice match {
